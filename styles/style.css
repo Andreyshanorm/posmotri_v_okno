@@ -8,6 +8,11 @@ html {
   block-size: 100%;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -223,19 +228,12 @@ video {
   color: #545050;
 }
 
-/* scrollbar-width removes scrollbar, but only works in Firefox */
-/* https://caniuse.com/?search=scrollbar-width */
+
 .content__list {
   position: relative;
   overflow-y: scroll;
   block-size: 298px;
   scrollbar-width: none;
-}
-
-/* Removes scrollbar for most other browsers */
-/* https://caniuse.com/?search=webkit-scrollbar */
-.content__list::-webkit-scrollbar {
-  display: none;
 }
 
 .content__list-item:not(:last-child) {
