@@ -1,2 +1,2 @@
 # posmotri_v_okno
-Проект "Посмотри в окно"
+Проект "Оно тебе надо" Ссылка = "https://github.com/Andreyshanorm/ono-tebe-nado.git"
